@@ -5,7 +5,7 @@ const books = [
     genre: "Fantasy",
     author: "Tolkien, J.R.R",
     publication: 1954,
-    image: "",
+    image: "src/images/books/el-señor-de-los-anillos.jpg",
     price: 1234,
   },
   {
@@ -14,7 +14,7 @@ const books = [
     genre: "Fantasy",
     author: "J.K.Rowling",
     publication: 1997,
-    image: "",
+    image: "src/images/books/harry-potter-y-la-pieda-filosofal.jpg",
     price: 1234,
   },
   {
@@ -23,7 +23,7 @@ const books = [
     genre: "Fantasy",
     author: "J.K.Rowling",
     publication: 1954,
-    image: "",
+    image: "src/images/books/harry-potter-y-la-camara-secreta.png",
     price: 1234,
   },
   {
@@ -32,7 +32,7 @@ const books = [
     genre: "Fantasy",
     author: "J.K.Rowling",
     publication: 1954,
-    image: "",
+    image: "src/images/books/harry-potter-y-el-prisionero-de-azkaban.png",
     price: 1234,
   },
   {
@@ -41,7 +41,7 @@ const books = [
     genre: "Fantasy",
     author: "J.K.Rowling",
     publication: 1954,
-    image: "",
+    image: "src/images/books/harry-potter-y-el-caliz-de-fuego.png",
     price: 1234,
   },
   {
@@ -50,7 +50,7 @@ const books = [
     genre: "Fantasy",
     author: "J.K.Rowling",
     publication: 1954,
-    image: "",
+    image: "src/images/books/harry-potter-y-la-orden-del-fenix.jpg",
     price: 1234,
   },
   {
@@ -59,7 +59,7 @@ const books = [
     genre: "Fantasy",
     author: "J.K.Rowling",
     publication: 1954,
-    image: "",
+    image: "src/images/books/harry-potter-y-el-misterio-del-principe.jpg",
     price: 1234,
   },
   {
@@ -68,7 +68,7 @@ const books = [
     genre: "Fantasy",
     author: "J.K.Rowling",
     publication: 1954,
-    image: "",
+    image: "src/images/books/harry-potter-y-las-reloquias-de-la-muerte.jpg",
     price: 1234,
   },
   {
@@ -77,7 +77,7 @@ const books = [
     genre: "Terror",
     author: "Bram Stoker",
     publication: 1897,
-    image: "",
+    image: "src/images/books/dracula.jpg",
     price: 1234,
   },
   {
@@ -86,7 +86,7 @@ const books = [
     genre: "Terror",
     author: "William Peter Blatty",
     publication: 1971,
-    image: "",
+    image: "src/images/books/el-exorcista.jpg",
     price: 1234,
   },
   {
@@ -95,7 +95,7 @@ const books = [
     genre: "Terror",
     author: "Jennifer McMahon",
     publication: 2021,
-    image: "",
+    image: "src/images/books/la-invitada.jpg",
     price: 1234,
   },
   {
@@ -104,7 +104,7 @@ const books = [
     genre: "Terror",
     author: "Mary Shelley",
     publication: 1818,
-    image: "",
+    image: "src/images/books/frankestein.jpg",
     price: 1234,
   },
   {
@@ -113,7 +113,7 @@ const books = [
     genre: "Terror",
     author: "Richard Matheson",
     publication: 1954,
-    image: "",
+    image: "src/images/books/soy-leyenda.jpg",
     price: 1234,
   },
   {
@@ -122,7 +122,7 @@ const books = [
     genre: "Policial",
     author: "Jorge Zaragoza Gómez",
     publication: 2020,
-    image: "",
+    image: "src/images/books/un-angel-no-deberia-morir.jpg",
     price: 1234,
   },
   {
@@ -131,7 +131,7 @@ const books = [
     genre: "Policial",
     author: "Larenn, Luz",
     publication: 2023,
-    image: "",
+    image: "src/images/books/diez-dias-para-no-morir.jpg",
     price: 1234,
   },
   {
@@ -140,7 +140,7 @@ const books = [
     genre: "Policial",
     author: "Donlea Charlie",
     publication: 2021,
-    image: "",
+    image: "src/images/books/la-chica-que-se-llevaron.jpg",
     price: 1234,
   },
   {
@@ -149,7 +149,7 @@ const books = [
     genre: "Policial",
     author: "Rio M.L",
     publication: 2023,
-    image: "",
+    image: "src/images/books/todos-somos-villanos.jpg",
     price: 1234,
   },
   {
@@ -158,7 +158,7 @@ const books = [
     genre: "Policial",
     author: "Hjorth Michael",
     publication: 2023,
-    image: "",
+    image: "src/images/books/silencios-inconfesables.jpg",
     price: 1234,
   },
 ];
