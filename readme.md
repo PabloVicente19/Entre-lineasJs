@@ -34,7 +34,7 @@
     - renderizar los guardados
 
 ## 3 - filtrar
-    - nombre
+     - nombre
     - autor
     - genero
     - precio

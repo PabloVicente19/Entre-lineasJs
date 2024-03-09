@@ -1,10 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;    
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+  --beige: #EEEBD3;
+  --gray: #525B76;
+  --ligth-blue: #89AAE6;  
+  --red: #CA4C25;
+  --black: #343434;
 }
 body{
     background-color: #ddd;
+}
+.navbar{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo{
+  display: flex;
+  height: 80%;
+}
+.navbar-list{
+  align-self: flex-end;
+  padding-bottom: .4rem;
+  display: flex;
+  gap: 3rem;
+}
+.navbar-list-item{
+  font-weight: 500;
+}
+.icons-container{
+  display: flex;
+  gap: 2rem;
+}
+
+.cards-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 1rem;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+}
+.card img{
+  display: inline-block;
+  border-radius: .5rem;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 2/3;
 }
