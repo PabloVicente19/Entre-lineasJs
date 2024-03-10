@@ -40,6 +40,10 @@ body{
   display: flex;
   gap: 2rem;
 }
+.icons-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
 /* Cards */
 .cards-container{
   width: 100%;
@@ -76,6 +80,13 @@ body{
   font-size: .9rem;
   color: var(--black);
 }
+.card-img{
+  display: inline-block;
+  border-radius: .5rem;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 2/3;
+}
 .card-btn{
   align-self: center;
   padding: .4rem 1.5rem;
@@ -86,11 +97,4 @@ body{
   color: var(--black);
   font-weight: 600;
   box-shadow: 1px 1px 5px var(--black);
-}
-.card-img{
-  display: inline-block;
-  border-radius: .5rem;
-  width: 100%;
-  object-fit: cover;
-  aspect-ratio: 2/3;
 }
